@@ -1,0 +1,21 @@
+<div class="container">
+  <app-text 
+    title="{{ 'payments.title' | translate }}"
+    paragraph="{{ 'payments.text' | translate }}"
+  ></app-text>
+  
+  <app-radio-button-card
+    yes="{{ 'payments.yes' | translate }}"
+    no="{{ 'payments.no' | translate }}"
+    name="{{ 'payments.name' | translate }}"
+  >
+  </app-radio-button-card>
+  <app-text class="padding-bottom"
+    paragraph="{{ 'terms-and-conditions' | translate }}"
+  >
+  </app-text>
+  <app-button
+    buttonText="{{ 'button.continue' | translate }}"
+    routerLinkPath="/identity"
+  ></app-button>
+</div>

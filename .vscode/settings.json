@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/f16e48f7-f0d8-4dfe-97d9-37812ec5193a/AppServices/subscriptions/f16e48f7-f0d8-4dfe-97d9-37812ec5193a/resourceGroups/GlobalPass_App_RG/providers/Microsoft.Web/sites/mockcibc",
+  "appService.deploySubpath": "dist"
+}

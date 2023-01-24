@@ -1,0 +1,23 @@
+<div class="container">
+  <app-text 
+    title="{{ 'identity.title' | translate }}"
+    paragraph="{{ 'identity.text' | translate }}"
+  ></app-text>
+  
+  <app-radio-button-card-identity
+    yes="{{ 'identity.yes' | translate }}"
+    no="{{ 'identity.no' | translate }}"
+    name="{{ 'identity.name' | translate }}"
+    yesDescription="{{ 'identity.yes-description' | translate }}"
+    noDescription="{{ 'identity.no-description' | translate }}"
+  >
+  </app-radio-button-card-identity>
+  <app-text class="padding-bottom"
+    paragraph="{{ 'terms-and-conditions' | translate }}"
+  >
+  </app-text>
+  <app-button
+    buttonText="{{ 'button.continue' | translate }}"
+    routerLinkPath="/loading"
+  ></app-button>
+</div>

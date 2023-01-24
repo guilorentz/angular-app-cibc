@@ -1,0 +1,30 @@
+.button {
+  width: 22rem;
+  height: 2.875rem;
+  background-color: #b43242;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin: 1rem;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.button-container {
+  border-top: 2px solid #D9D9D6;
+  background-color: #fafaf9;
+  max-width: 500px;
+  padding-top: 1.5rem;
+}
+
+  @media only screen and (min-width: 394px) {
+    .button-container {
+      background-color: #fff;
+      border-top: none;
+    }
+  } 

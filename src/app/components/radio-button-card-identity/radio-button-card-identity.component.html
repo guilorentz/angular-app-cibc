@@ -1,0 +1,20 @@
+<form>
+  <div class="radio-card">
+    <div class="input">
+      <input type="radio" [name]="name" id="yes" value="yes">
+      <label class="label" for="yes">{{ yes }}</label>
+    </div>
+    <div class="image">
+      <img src="assets/Icon.svg" alt="Verified.me Icon">
+      <img src="assets/Image.svg" alt="Verified.me">
+    </div>
+    <p>{{ yesDescription }}</p>
+  </div>
+  <div class="radio-card without">
+    <div class="input">
+      <input type="radio" [name]="name" id="no" value="no">
+      <label class="label" for="no">{{ no }}</label>
+    </div>
+    <p>{{ noDescription }}</p>
+  </div>
+</form>

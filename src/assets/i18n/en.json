@@ -1,0 +1,60 @@
+{
+  "cardholders": {
+      "title": "Manage spending with family and friends",
+      "text": "You can add up to 3 family members or friends to your account so you can earn rewards faster. Additional cardholders have access to your account details and can use their cards for purchases and cash advances. By providing their information, you're confirming this information is given with their knowledge and consent.",
+      "info": "Please review annual fee for each authorized user (if applicable) in the Summary of Rates and Fees (PDF, 169KB).",
+      "yes": "Yes, I want to add additional cardholders",
+      "no": "No, I don't want to add additional cardholders"
+  },
+  "payments": {
+    "title": "Simplify your credit card payments",
+    "text": "You can transfer up to 3 non-CIBC credit card balances to your account. Consolidating your balances onto cards means fewer payments to keep track of.",
+    "yes": "Yes, I want to transfer a balance",
+    "no": "No, I don't want to transfer a balance"
+  },
+  "identity": {
+    "title": "Verify your identity",
+    "text": "Whether you're a new or existing client, we want to keep your account secure. To do this, we need to verify your identity. You can easily and securely complete this step online with your mobile device and ID. If we're unable to veryfy your identity during this application, you may be asked to visit a banking centre to provide more information.",
+    "yes": "Verify your identity with photo and ID",
+    "yes-description": "Using your mobile device, scan your ID and take a photo of yourself to speed up the application process.",
+    "no": "Continue without verifying with photo and ID",
+    "no-description": "We will try to verify you based on the information provided in your application."
+  },
+  "terms-and-conditions": "By transferring a balance to my account, I agree to the Terms and Conditions.",
+  "loading": {
+    "message": "Thanks! We’ll take you to the next step shortly.",
+    "info": "We’re getting yout credit report..."
+  },
+  "conclusion": {
+    "congrats": "Congratulations!",
+    "you-set": "You’re all set.",
+    "reference": "Reference number:",
+    "card": "CIBC Aventura Gold® Visa* Card"
+  },
+  "next-steps": {
+    "title": "Here are your next steps:",
+    "email": {
+      "title": "Check your email",
+      "description": "We’ve sent you an email about this application."
+    },
+    "credit-card": {
+      "title": "User your credit card",
+      "description": "You’ll receive your card and welcome package shortly at the following address: 15614 Whiskey Cove Rd, Lake Country, BC V4V1C4",
+      "note": "Note: We may contact you if we need more informations; if we aren’t able to verify your identity, you may have to visit a CIBC Banking Centre. We may withdraw approval based on any information we learn, or if you can’t give us details we request."
+    },
+    "register": {
+      "title": "Register for CIBC Online Banking®",
+      "description": "When toy receive your credit card, register for online banking to bank from any computer, smartphone or tablet any time you like."
+    },
+    "tell-us": {
+      "title": "Tell us what you think",
+      "description": "Take a moment to provide some feedback on your CIBC experience! You’ll be taken to a diffent website, and your information will be anonymous and confidential.",
+      "survey": "Take our survey"
+    }
+  },
+    "button": {
+      "continue": "Continue",
+      "cibc": "Browse the CIBC website",
+      "globalpass": "Back to GlobalPass"
+    }
+}

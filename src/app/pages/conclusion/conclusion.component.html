@@ -1,0 +1,44 @@
+<div class="container">
+  <img class="conclusion" src="assets/Conclusion.svg" alt="Checkmark">
+  <h1>{{ 'conclusion.congrats' | translate }}</h1>
+  <p>{{ 'conclusion.you-set' | translate }}</p>
+  <div class="reference">
+    <p>{{ 'conclusion.reference' | translate }}</p>
+    <p>{{ referenceNumber }}</p>
+  </div>
+  <img src="assets/Card-big.svg" alt="Card">
+  <h2>{{ 'conclusion.card' | translate }}</h2>
+
+  <app-text 
+    title="{{ 'next-steps.title' | translate }}"
+  ></app-text>
+  <app-bullet-text
+    title="{{ 'next-steps.email.title' | translate }}"
+    text1="{{ 'next-steps.email.description' | translate }}"
+  >
+  </app-bullet-text>
+  <app-bullet-text
+    title="{{ 'next-steps.credit-card.title' | translate }}"
+    text1="{{ 'next-steps.credit-card.description' | translate }}"
+    text2="{{ 'next-steps.credit-card.note' | translate }}"
+  >
+  </app-bullet-text>
+  <app-bullet-text
+    title="{{ 'next-steps.register.title' | translate }}"
+    text1="{{ 'next-steps.register.description' | translate }}"
+  >
+  </app-bullet-text>
+  <app-bullet-text
+  title="{{ 'next-steps.tell-us.title' | translate }}"
+  text1="{{ 'next-steps.tell-us.description' | translate }}"
+  >
+  </app-bullet-text>
+  <div class="survey">
+    <p>{{ 'next-steps.tell-us.survey' | translate }}</p>
+    <img class="icon" src="assets/Redirect.svg" alt="Take our survey">
+  </div>
+  <button><a href="https://www.cibc.com/en/personal-banking/ways-to-bank/online-services.html">{{ 'button.cibc' | translate }}</a></button>
+  <div class="button-container">
+    <a  class="globalpass-redirect" href="globalpass://openfinance.api.com/consent">{{ 'button.globalpass' | translate }}</a> 
+  </div>
+</div>
